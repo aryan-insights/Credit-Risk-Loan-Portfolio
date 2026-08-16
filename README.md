@@ -113,7 +113,7 @@ Three pages, each with a distinct purpose:
 - Combined high-risk segment callout (0.13% of applicants, 29.95% default rate)
 - Written recommendations for a portfolio/risk team
 
-Dashboard screenshots (`page1_portfolio_overview.png`, `page2_risk_deep_dive.png`, `page3_risk_drivers_ranked.png`) are included in this repo, alongside the live `.pbix` file (`Portfolio_Overview.pbix`) for anyone who wants to open and interact with the report directly in Power BI Desktop.
+Dashboard screenshots (`page1_portfolio_overview.png`, `page2_risk_deep_dive.png`, `page3_risk_drivers_ranked.png`) are included in this repo. The live `.pbix` file is too large for GitHub's browser upload and is hosted externally: **[Download Portfolio_Overview.pbix (Google Drive)](https://drive.google.com/file/d/168hx1WrxrIhwezvyd3VDz3oE-sbRyIKC/view?usp=sharing)** — open it in Power BI Desktop to interact with the report directly.
 
 ---
 
@@ -135,9 +135,10 @@ Dashboard screenshots (`page1_portfolio_overview.png`, `page2_risk_deep_dive.png
 ├── page1_portfolio_overview.png     # Dashboard screenshot — Portfolio Overview
 ├── page2_risk_deep_dive.png         # Dashboard screenshot — Risk Deep-Dive
 ├── page3_risk_drivers_ranked.png    # Dashboard screenshot — Risk Drivers Ranked
-├── Portfolio_Overview.pbix          # Live Power BI report file
 └── README.md
 ```
+
+> **Power BI file:** `Portfolio_Overview.pbix` is too large for GitHub's web upload and isn't stored in this repo — [download it from Google Drive here](https://drive.google.com/file/d/168hx1WrxrIhwezvyd3VDz3oE-sbRyIKC/view?usp=sharing) to open the live, interactive report in Power BI Desktop.
 
 > **Dataset:** Raw source files aren't included in this repo due to size. Download them from the [Home Credit Default Risk competition page on Kaggle](https://www.kaggle.com/competitions/home-credit-default-risk/data) — this project uses only two files from that competition: **`application_train.csv`** and **`bureau.csv`**. Load both into PostgreSQL before running `01_Database.sql`.
 
